@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>DIABLO</title>
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="Another Sky.css">
+</head>
+
+<body>
+
+	<!-- Header -->
+
+	<div class="container">
+		<header class="header">
+			<div class="hero">
+				<h2 class="heading">日本への旅行</h2>
+				<p class="sub-heading">Osaka - Kyoto - Tokyo 2019</p>
+			</div>
+			<div class="features feature-1">
+				<h4 class="perfecture">OSAKA</h4>
+				<p class="distrik">NAMBA</p>
+			</div>
+			<div class="features feature-2">
+				<h4 class="perfecture">KYOTO</h4>
+				<p class="distrik">FUSHIMI</p>
+			</div>
+			<div class="features feature-3">
+				<h4 class="perfecture">YOKOHAMA</h4>
+				<p class="distrik">KAMAKURA</p>
+			</div>
+			<div class="features feature-4">
+				<h4 class="perfecture">TOKYO</h4>
+				<p class="distrik">AKIHABARA</p>
+			</div>
+		</header>
+
+		<!-- Navigation -->
+
+		<nav class="menu">
+			<div class="menu-toggle">
+				<input type="checkbox" />
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="place">
+				<h1>ディアブロの世界</h1>
+			</div>
+			<ul class="menu-list">
+				<li><a href="index.html">home</a></li>
+				<li><a href="Route Journey/Route.html" target="_blank">route</a></li>
+				<li id="tampil" class="menuItem">
+					<a href="#" class="navi">log book</a>
+					<ul id="sho" class="navbaru">
+						<li>
+							<a href="Log Book.html">2019</a>
+						</li>
+					</ul>
+				</li>
+				<li id="tampil2" class="menuItem">
+					<div>
+						<a href="#" class="navi">itinerary visa</a>
+						<ul id="shon" class="navbaru">
+							<li>
+								<a href="Itinerary Visa.html">2019</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li id="tampil3" class="menuItem">
+					<div>
+						<a href="#">travel expense</a>
+						<ul id="shok" class="navbaru">
+							<li>
+								<a href="Another Sky Travel Expense.html">2019</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="Gallery.html">gallery</a></li>
+				<li><a href="">about</a></li>
+			</ul>
+		</nav>
+
+		<!-- Service -->
+
+		<section class="services">
+			<a href="Vacation Object/Castle/castle.html" target="_blank">
+				<div class="service">
+					<div class="icon">🏯</div>
+					<h3>城</h3>
+					<p>Japanese castles were fortresses constructed primarily of wood and stone</p>
+				</div>
+			</a>
+			<a href="Accommodation/Hotel.html" target="_blank">
+				<div class="service">
+					<div class="icon">🏨</div>
+					<h3>ホテル</h3>
+					<p>an establishment that provides lodging stars three or above</p>
+				</div>
+			</a>
+			<a href="Vacation Object/Park/Park.html" target="_blank">
+				<div class="service">
+					<div class="icon">🏞️</div>
+					<h3>公園</h3>
+					<p>an area of natural, semi-natural or planted space for the protection of wildlife or natural habitats</p>
+				</div>
+			</a>
+			<a href="Vacation Object/Restaurant/Restaurant.html" target="_blank">
+				<div class="service">
+					<div class="icon">🍴</div>
+					<h3>飲食店</h3>
+					<p>business that prepares and serves food and drinks to customers especially Japanese food or etc</p>
+				</div>
+			</a>
+			<a href="Vacation Object/Mall/Mall.html" target="_blank">
+				<div class="service">
+					<div class="icon">🏬</div>
+					<h3>ショッピング</h3>
+					<p>a group of shops built together, sometimes under one roof</p>
+				</div>
+			</a>
+			<a href="Vacation Object/Shrine/Shrine.html" target="_blank">
+				<div class="service">
+					<div class="icon">⛩️</div>
+					<h3>神社</h3>
+					<p>a structure whose main purpose is to house ("enshrine") one or more "kami" (gods)</p>
+				</div>
+			</a>
+			<a href="Vacation Object/Theme Park/Theme Park.html" target="_blank">
+				<div class="service">
+					<div class="icon">🎢</div>
+					<h3>テーマパーク</h3>
+					<p>a type of amusement park that bases its structures and attractions around a central theme, often featuring
+						multiple areas with different themes</p>
+				</div>
+			</a>
+		</section>
+		<section class="gallery">
+			<h1>Gallery</h1>
+			<img src="image/20191010_133300.jpg" alt="" />
+			<img src="image/20191005_195059.jpg" alt="" />
+			<img src="image/20191007_094910.jpg" alt="" />
+			<img src="image/20191008_122354.jpg" alt="" />
+			<img src="image/20191007_113911.jpg" alt="" />
+			<img src="image/20191007_120206.jpg" alt="" />
+			<img src="image/20191008_112923.jpg" alt="" />
+			<img src="image/20191008_141817.jpg" alt="" />
+			<img src="image/20191013_105543.jpg" alt="" />
+			<img src="image/20191013_143152.jpg" alt="" />
+		</section>
+		<div class="footer">
+			<a href="https://twitter.com/" class="twit" target="_blank">twitter</a>
+			<p class="copy">© Copyright 2019 all rights reserved.</p>
+			<a href="https://www.instagram.com/?hl=ja" class="insta" target="_blank">@horayzon6969</a>
+		</div>
+	</div>
+	<script>
+		const menutoggle = document.querySelector('.menu-toggle input');
+		const nav = document.querySelector('nav ul');
+
+		menutoggle.addEventListener('click', function () {
+			nav.classList.toggle('slide');
+		});
+
+		function createEventListener(menuId, listId) {
+			const e = document.getElementById(menuId);
+			e.addEventListener('mouseover', () => { showNavbar(listId) });
+			e.addEventListener('mouseleave', () => { hideNavbar(listId) });
+		}
+
+		function showNavbar(id) {
+			var e = document.getElementById(id)
+			e.style.display = 'block';
+		}
+
+		function hideNavbar(id) {
+			var e = document.getElementById(id)
+			e.style.display = '';
+		}
+
+	</script>
+</body>
+
+</html>
